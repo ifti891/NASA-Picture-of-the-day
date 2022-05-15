@@ -20,3 +20,69 @@ img{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
+.center-date{
+  margin-top: 0 auto;
+  /* margin-left: ; */
+  display: block;
+  text-justify: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 0 auto;
+  text-align: center;
+  /* padding-left: 30%; */
+}
+
+.center-click-get-media{
+  margin-left: 0 auto;
+  /* padding-left: -5%; */
+  /* padding-right: 30%; */
+  display: block;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 0 auto;
+  text-align: center;
+}
+
+.center-nasa{
+  text-align: center;
+}
+
+.picture-of-the-day{
+  /* padding-left: 30%; */
+  text-align: center;
+  /* margin-bottom: 0 auto; */
+}
+
+.explaination{
+  /* text-align: center; */
+  display: block;
+  text-justify: left;
+  margin-top: -5vh;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-decoration: none;
+  font-weight: normal;
+  /* font-size: 8; */
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 600px; */
+  /* margin-left: 15%;
+  margin-right: 15%; */
+  background-color: rgb(170, 131, 207);
+}
+
+
+@media screen and (max-width: 900px) {
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+}
